@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Casa de los Famosos Colombia 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <nav>
+      <h1>La Casa de los Famosos 2026</h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contenedores-aspirantes">Aspirantes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <section id="inicio" class="inicio">
+    <h2>La Casa de los Famosos Colombia 2026</h2>
+    <p>
+      El reality más polémico, divertido y esperado del año se prepara para una nueva edición. 
+      Amor, chismes, traiciones y momentos inolvidables están por llegar.  
+      Aquí conocerás a los posibles aspirantes que podrían entrar a la casa más famosa del país.
+    </p>
+    <div class="video-principal">
+      <video autoplay muted loop controls class="trailer">
+        <source src="VIDEOS/videoplayback.mp4" type="video/mp4">
+        Lo sentimos, tu navegador no reproduce este video.
+      </video>
+    </div>
+  </section>
+
+    <section id="contenedores-aspirantes" class="contenedores-interactivos">
+    
+        <div class="selectores">
+      <div class="selector active" id="btn-mujeres" onclick="mostrarContenido('mujeres')">
+        <h3>Mujeres Aspirantes</h3>
+      </div>
+      <div class="selector" id="btn-hombres" onclick="mostrarContenido('hombres')">
+        <h3>Hombres Aspirantes</h3>
+      </div>
+      <div class="selector" id="btn-nosotros" onclick="mostrarContenido('nosotros')">
+        <h3>Sobre Nosotros</h3>
+      </div>
+    </div>
+
+        <div id="contenido-mujeres" class="contenido-aspirantes visible">
+        <div class="cards">
+                    <div class="card">
+            <img src="IMAGENES/barbi.jpeg" alt="barbi">
+            <h3>La Barbi Colombiana</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@labarbiecolombianaofi?_t=ZS-90Q5r8DNZuJ&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/labarbiecolombianaoficial?igsh=aHM0YnpsZ3BteHBh">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/barbi.jpeg', 'la-barbi-colombiana')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/juliana.jpeg" alt="juliana">
+            <h3>Juliana Calderón</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@julicalderon12?_t=ZS-90Q5svwlZtX&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/julianacalderon12?igsh=c2xxZ2NidXJ3eHU2">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/juliana.jpeg', 'juliana-calderon')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/karola.jpeg" alt="karola">
+            <h3>Karol Alcendra</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@karolalcendrat?_t=ZS-90Q5zXUFtsF&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/karolalcendra_?igsh=MXRldG1wbnQybjJocA==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/karola.jpeg', 'karol-alcendra')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/lunagil.jpeg" alt="lunagil">
+            <h3>Luna Gil</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@luna.gil?_t=ZS-90Q61gLfmx0&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/luna.gilreal?igsh=MTVzbWdzcWZzY3A2OQ==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/lunagil.jpeg', 'luna-gil')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/manuela.jpeg" alt="manuela">
+            <h3>Manuela Goméz</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@manuelagomezfranco?_t=ZS-90Q6DjZIGEa&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/manugomezfranco1?igsh=M3dxMDE3a3RvdWpi">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/manuela.jpeg', 'manuela-gomez')">Descargar</button>
+          </div>
+                    <div class="card">
+            <img src="IMAGENES/mariana.jpeg" alt="mariana">
+            <h3>Mariana Zapata</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@mariana.zapata13?_t=ZS-90Q6Ee3BGtU&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/mariana.zapata13?igsh=YXlqand2Nzd3ejE4">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/mariana.jpeg', 'mariana-zapata')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/mav.jpeg" alt="mav">
+            <h3>Maria Alejandra Villegas "Mav" </h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@priv_mav?_t=ZS-90Q6IQWi3fu&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/oficial_mav?igsh=dGg5bDNidHpwYm16">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/mav.jpeg', 'mav')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/samantha.jpeg" alt="samantha">
+            <h3>Samantha Correa</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@samcorreat?_t=ZS-90Q6JirkrPG&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/samcorreat?igsh=bTd1Y2ZnYm1hZmFk">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/samantha.jpeg', 'samantha-correa')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/marcela.jpeg" alt="marcela">
+            <h3>Marcela Reyes</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@marce_50?_t=ZS-90Q6Ol6Bw40&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/marcelareyes?igsh=b2ZmZXFoNXdhcHYy">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/marcela.jpeg', 'marcela-reyes')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/valdiri.jpeg" alt="valdiri">
+            <h3>Andrea valdiri</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@andreavaldirisos1?_t=ZS-90Q6OiwFoNG&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/andreavaldirisos?igsh=MTd6OHl6dWJyYWYwZA==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/valdiri.jpeg', 'andrea-valdiri')">Descargar</button>
+          </div>
+                  </div>
+    </div>
+
+        <div id="contenido-hombres" class="contenido-aspirantes">
+        <div class="cards">
+                    <div class="card">
+            <img src="IMAGENES/valentino.jpeg" alt="valentino">
+            <h3>Valentino Lazaro</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@valentinolazaroh_?_t=ZS-90Q7JyfW8RD&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/valentinolazaroh?igsh=MTdwYmN5em1uOWplcw==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/valentino.jpeg', 'valentino-lazaro')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/javier.jpeg" alt="javier">
+            <h3>Javier Cardona</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@javiercardonat1?_t=ZS-90Q7S3hTm5f&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/javiercardonat?igsh=MWJ4ZGZ0M2t0Zmd1">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/javier.jpeg', 'javier-cardona')">Descargar</button>
+            </div>
+          <div class="card">
+            <img src="IMAGENES/mateo.jpeg" alt="mateo">
+            <h3>Mateo Carvajal</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@mateoc17_?_t=ZS-90Q7TVQS7YG&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/mateoc17?igsh=Z3ByMXp6MHdhZ241">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/mateo.jpeg', 'mateo-carvajal')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/matias.jpeg" alt="matias">
+            <h3>Matias Ochoa</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@matiasochoa022?_t=ZS-90Q7Z3SYgFu&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/matiasochoa02?igsh=MXc5eWlwaGkxMmR2aQ==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/matias.jpeg', 'matias-ochoa')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/omi.jpeg" alt="omi">
+            <h3>Omi Camacho</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@omicamacho?_t=ZS-90Q7f7Ic7LG&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/omi_camacho?igsh=MTRzOG5sOWR0aHVscA==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/omi.jpeg', 'omi-camacho')">Descargar</button>
+          </div>
+                    <div class="card">
+            <img src="IMAGENES/natacha.jpeg" alt="natacha">
+            <h3>Adrian Diaz "La Natacha"</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@lanatacha69?_t=ZS-90Q7hGagElz&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/la_natacha69?igsh=MWVxbmh2ejN2d3ByeA==">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/natacha.jpeg', 'adrian-diaz-natacha')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/javi.jpeg" alt="javi">
+            <h3>Javier Gomez "El Javi"</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@javiergomezm_?_t=ZS-90Q7ioIwFgF&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/javiergomezm_?igsh=djlnam0ybmkydHo3">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/javi.jpeg', 'javier-gomez')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/felipe.jpeg" alt="felipe">
+            <h3>Felipe Saruma</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@sarumaoficial?_t=ZS-90Q7o6TUNN4&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/felipesaruma?igsh=NDVsbHFlcGx2aHlh">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/felipe.jpeg', 'felipe-saruma')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/paisa.jpeg" alt="paisa">
+            <h3>Daniel Patiño "Paisa Vlogs"</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@paisa?_t=ZS-90Q7p7riI5v&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/paisa?igsh=ZjZneDhkYWwzcXRl">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/paisa.jpeg', 'daniel-patino-paisa')">Descargar</button>
+          </div>
+          <div class="card">
+            <img src="IMAGENES/ricardo.jpeg" alt="ricardo">
+            <h3>Ricardo Florez "La Ricarda"</h3>
+            <div class="redes">
+              <a href="https://www.tiktok.com/@laricardaoficial_?_t=ZS-90Q7tChD1b6&_r=1">TikTok</a>
+              <a href="https://www.instagram.com/laricardaoficial?igsh=ZW15cHJ0c2RvbWFj">Instagram</a>
+            </div>
+            <button onclick="descargarImagen('IMAGENES/ricardo.jpeg', 'ricardo-florez-ricarda')">Descargar</button>
+          </div>
+                  </div>
+    </div>
+
+        <div id="contenido-nosotros" class="contenido-nosotros">
+      <h2>Sobre Nosotros: Tercera Temporada 2026</h2>
+      <p>
+        ¡Esta es la TERCERA TEMPORADA de nuestro exitoso reality show colombiano!
+        LA CASA DE LOS FAMOSOS COLOMBIA regresa con más sorpresas, desafíos inesperados y, por supuesto,
+        la convivencia de las personalidades más influyentes y polémicas del país.
+      </p>
+      <p>
+        ¿DE QUE TRATA?: Un grupo de celebridades es encerrado en una casa sin contacto con el exterior,
+        donde sus vidas son grabadas 24/7. El público decide quién se queda y quién se va, llevando a un solo
+        ganador el gran premio. ¡Prepárate para drama, alianzas inesperadas y mucha diversión!
+      </p>
+    </div>
+  </section>
+
+    <footer id="contacto">
+    <h2>¡Sé parte de la nueva temporada!</h2>
+    <div class="whatsapp-postulacion">
+            <a href="http://wa.me/573054395826" target="_blank">
+        ENVIAR MENSAJE POR WHATSAPP PARA TU POSTULACIÓN
+      </a>
+    </div>
+
+    <h2>Síguenos en nuestras redes</h2>
+    <div class="redes-oficiales">
+      <a href="https://www.tiktok.com/@lacasadelosfamososco?_t=ZS-90Q7veMescS&_r=1" target="_blank">TikTok Oficial</a>
+      <a href="https://www.instagram.com/lacasadelosfamososcolombia1?igsh=MWU3YTdpaG54NDdhaQ==" target="_blank">Instagram Oficial</a>
+    </div>
+    <p>© 2026 La Casa de los Famosos Colombia | Página creada por Alexander Murillo</p>
+  </footer>
+
+    <script>
+    // Función para mostrar el contenido seleccionado (Mujeres, Hombres o Nosotros)
+    function mostrarContenido(tipo) {
+      // Oculta todos los contenidos
+      document.querySelectorAll('.contenido-aspirantes, .contenido-nosotros').forEach(c => {
+        c.classList.remove('visible');
+      });
+      // Remueve la clase 'active' de todos los selectores
+      document.querySelectorAll('.selector').forEach(s => {
+        s.classList.remove('active');
+      });
+
+      // Muestra el contenido y activa el selector correspondiente
+      document.getElementById(`contenido-${tipo}`).classList.add('visible');
+      document.getElementById(`btn-${tipo}`).classList.add('active');
+    }
+
+    // Función para descargar la imagen
+    function descargarImagen(urlImagen, nombreArchivo) {
+      const link = document.createElement('a');
+      link.href = urlImagen;
+      link.download = nombreArchivo + '.jpg'; // Asegúrate de que el formato sea correcto
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+
+</body>
+</html>
